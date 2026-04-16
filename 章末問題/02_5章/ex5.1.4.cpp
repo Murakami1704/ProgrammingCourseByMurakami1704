@@ -4,10 +4,10 @@ int main(void){
     int x;
     cin >> x;
 
-    if(x %= 3){
+    if(x % 3 == 0){
         cout << "Fizz";
     }
-    if(x %= 5){
+    if(x % 5 == 0){
         cout << "Buzz";
     }
 
