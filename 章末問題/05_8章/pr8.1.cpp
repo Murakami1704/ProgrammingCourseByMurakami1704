@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(void){
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    cout << max(a, max(b, c)) << endl;
+    cout << min(a, min(b, c)) << endl;
+
+    return 0;
+}
