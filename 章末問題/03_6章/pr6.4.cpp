@@ -7,7 +7,7 @@ int main(void){
     int i = 0;
     while(m != 1){
         i++;
-        m %= n;
+        m /= n;
     }
 
     cout << i << endl;

@@ -10,7 +10,7 @@ int main(void){
         case 2:
             cout << "ハンバーグ 700円" << endl;
         case 3:
-            cout < "サラダ 300円" << endl;
+            cout << "サラダ 300円" << endl;
         case 4:
             cout << "スープ 100円" << endl;
         default:

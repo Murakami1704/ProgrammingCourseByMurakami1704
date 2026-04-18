@@ -9,6 +9,7 @@ int main(void){
     while(kane < k){
         kane *= risoku;
         kane += n;
+        tsuki++;
     }
 
     cout << tsuki << endl;

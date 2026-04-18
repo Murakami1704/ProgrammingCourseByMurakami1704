@@ -12,7 +12,7 @@ int main(void){
             cout << "ハンバーグ 700円" << endl;
             break;
         case 3:
-            cout < "サラダ 300円" << endl;
+            cout << "サラダ 300円" << endl;
             break;
         case 4:
             cout << "スープ 100円" << endl;
