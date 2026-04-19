@@ -4,7 +4,7 @@ int main(void){
     int a, b;
     cin >> a >> b;
 
-    cout << max(abs(a), abs(b)) << endl;
+    cout << min(abs(a), abs(b)) << endl;
 
     return 0;
 }

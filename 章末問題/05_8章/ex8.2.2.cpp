@@ -5,8 +5,8 @@ double decimal_max(double a, double b){
     int bi = b;
     a -= ai;
     b -= bi;
-
-    if(a > b){
+    
+    if(abs(a) > abs(b)){
         return a + ai;
     }
     else {

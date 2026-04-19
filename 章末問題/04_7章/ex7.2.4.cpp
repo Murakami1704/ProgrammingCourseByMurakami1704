@@ -9,20 +9,15 @@ int main(void){
         cin >> a[i];
     }
 
-    bool hantei = false;
+    int count = 0;
 
     for(int i = 0; i < n; i++){
         if(a[i] == k){
-            hantei = true;
+            count++;
         }
     }
 
-    if(hantei){
-        cout << "Yes" << endl;
-    }
-    else {
-        cout << "No" << endl;
-    }
+    cout << count << endl;
 
     return 0;
 }
