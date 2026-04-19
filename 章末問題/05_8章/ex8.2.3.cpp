@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector calc_ori(int a, int b){
-    vector ans(5);
-    ans(0) = a + b;
-    ans(1) = a - b;
-    ans(2) = a * b;
-    ans(3) = a / b;
-    ans(4) = a % b;
+vector<int> calc_ori(int a, int b){
+    vector<int> ans(5);
+    ans[0] = a + b;
+    ans[1] = a - b;
+    ans[2] = a * b;
+    ans[3] = a / b;
+    ans[4] = a % b;
 
     return ans;
 }

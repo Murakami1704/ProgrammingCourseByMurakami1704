@@ -21,7 +21,7 @@ int main(void){
         else if(t == 2){
             int l;
             cin >> l;
-            cout << a[l-1];
+            cout << a[l-1] << endl;
         }
     }
 

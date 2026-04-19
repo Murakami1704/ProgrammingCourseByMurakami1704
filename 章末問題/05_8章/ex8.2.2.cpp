@@ -15,7 +15,7 @@ double decimal_max(double a, double b){
 }
 
 int main(void){
-    int a, b;
+    double a, b;
     cin >> a >> b;
 
     cout << decimal_max(a, b) << endl;

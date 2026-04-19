@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-int calc_fun(int t, int num, int a){
+int calc_fun(int num){
     int t, a;
     cin >> t;
     if(t == 1){
@@ -38,9 +38,7 @@ int main(void){
     int num = 0;
 
     for(int i = 0; i < q; i++){
-        int t, a;
-        cin >> t;
-        num = calc_fun(t, num, a);
+        num = calc_fun(num);
     }
 
     return 0;
