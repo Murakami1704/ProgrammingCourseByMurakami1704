@@ -10,7 +10,7 @@ int main(void){
 
     for(int i = 1; i < n-1; i++){
         if(a[i] > a[i-1] && a[i] > a[i+1]){
-            cout << a[i] << " ";
+            cout << i << " ";
         }
     }
     cout << endl;

@@ -3,16 +3,20 @@ using namespace std;
 int main(void){
     int n;
     cin >> n;
-    vector<int> a(n);
+    vector<int> a(n), b(n);
     for(int i = 0; i < n; i++){
         cin >> a[i];
+    }
+    
+    for(int i = 0; i < n; i++){
+        cin >> b[i];
     }
 
     int sum = 0;
 
     for(int i = 0; i < n; i++){
-        for(int j = i + 1; j < n; j++){
-            sum += a[i] * b[i];
+        for(int j = 0; j < n; j++){
+            sum += a[i] * b[j];
         }
     }
 

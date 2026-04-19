@@ -8,19 +8,19 @@ int main(void){
         cin >> a[i];
     }
 
-    vector<int> new;
+    vector<int> newVec;
 
     int max = 0;
 
     for(int i = 0; i < n; i++){
         if(max < a[i]){
             max = a[i];
-            new.push_back(a[i]);
+            newVec.push_back(a[i]);
         }
     }
 
-    for(int i = 0; i < new.size(); i++){
-        cout << new[i] << " ";
+    for(int i = 0; i < newVec.size(); i++){
+        cout << newVec[i] << " ";
     }
     cout << endl;
 

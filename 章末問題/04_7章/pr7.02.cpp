@@ -7,14 +7,12 @@ int main(void){
     for(int i = 0; i < n; i++){
         cin >> a[i];
     }
-
-    int sum = 0;
-
+    
     for(int i = 0; i < n; i++){
-        sum += a[i] * a[i];
+        cout << a[i] * a[i] << " ";
     }
 
-    cout << sum << endl;
+    cout << endl;
 
     return 0;
 }
